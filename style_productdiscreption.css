@@ -1,0 +1,291 @@
+body{
+	font-family: 'Hind Siliguri';
+}
+
+
+/*
+----------------------
+	header style start
+----------------------
+*/
+
+.shadow1{
+	box-shadow: 0px 3px 12px #B5B2B2;
+}
+
+.header_top{
+	height: 40px;
+	background-image: linear-gradient(to right, #0C5023, #0C5023, #126D30, #18803B, #26B556, #26B556);
+}
+
+.header_down{
+	height: 81px;
+}
+
+.logo{
+	max-height: 121px;
+	width: auto;
+}
+
+.nav-link{
+	color: #222222 !important;
+}
+
+.active{
+	background-color: #2AB157;
+	color: white !important;
+}
+.hsp_gap{
+	width: 250px;
+}
+
+#navbarSupportedContent{
+  background-color:white !important;
+  padding-left: 40px;
+}
+
+#navbarSupportedContent .nav-item :hover {
+  background-color:#2AB157 !important;
+}
+
+
+@media only screen and (max-width: 1530px) {
+	.logo{
+		max-height: 40px;
+		width: auto;
+	}
+	.header_down{
+		width: 100%;
+		margin-left: 0px !important;
+	}
+	
+	.hsp_gap{
+		width: 40px;
+	}
+	.itm_will_null_tabxxx{
+		width: 1px;
+  		height: 1px;
+    	display: none;
+	}
+}
+@media only screen and (max-width: 1060px) {
+	.itm_will_null_tab{
+		width: 1px;
+  		height: 1px;
+    	display: none;
+	}
+	.medi_tetho{
+		margin: auto !important;
+		margin-top: 50px !important;
+		display: flex !important;
+	}
+	.nav-item{
+		margin-left: 0px !important;
+		margin-right: 0px !important;
+
+	}
+}
+
+/*
+----------------------
+	header style end
+----------------------
+*/
+
+
+
+
+
+/*
+----------------------------
+	footer style start
+----------------------------
+*/
+
+.footer{
+  background-color: #282828;
+  padding: 20px;
+  padding-bottom: 70px;
+}
+
+.footer .ficon{
+  padding: 40px 60px;
+}
+
+.footer .ficon img{
+  width: 23.625px;
+  height: 23.625px;
+  margin: 10px;
+}
+
+.footer .column-1{
+  color: #AAAA9D;
+  padding: 20px 60px;
+  font-size: 14.25px;
+}
+
+.footer .column-1 img{
+  width: 174px;
+  height: 67.5px;
+}
+/*
+----------------------------
+	footer style end
+----------------------------
+*/
+
+
+
+
+
+/*
+----------------------------
+	roduct description style start
+----------------------------
+*/
+
+.medicinimg{
+	width: 240px !important;
+	height: 220px !important;
+	border: 1px solid #DDDDDD;
+	border-radius: 3px;
+}
+
+.medname{
+	color: #555555;
+	font-size: 26px;
+	font-weight: bold;
+}
+
+.pinline p{
+	display: inline;
+}
+.description-header{
+	width: 110px;
+	color: #707070;
+	background-color: white
+	font-size: 16px;
+	font-weight: 600;
+	padding-top: 10px !important;
+	padding-bottom: 10px !important;
+	padding: 15px;
+	border: 1px solid #C9C9C9;
+	border-top: 6px solid #1A833D;
+	border-bottom: 1px solid white;
+	border-radius: 10px 10px 0px 0px;
+	z-index: 10 !important;
+}
+
+.description-body{
+	margin-top: -16px;
+	padding-top: 10px;
+	border: 1px solid #C9C9C9;
+	padding: 10px;
+	color: #707070;
+	padding-bottom: 40px;
+	z-index: 5 !important;
+	text-align: justify;
+}
+
+@media only screen and (max-width: 950px){
+	.rspnsv_marginlft{
+		margin-left: 40px;
+	}
+}
+
+
+
+
+
+.number-input input[type="number"] {
+-webkit-appearance: textfield;
+-moz-appearance: textfield;
+appearance: textfield;
+}
+
+.number-input input[type=number]::-webkit-inner-spin-button,
+.number-input input[type=number]::-webkit-outer-spin-button {
+-webkit-appearance: none;
+}
+
+.number-input {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.number-input button {
+-webkit-appearance: none;
+background-color: transparent;
+border: none;
+align-items: center;
+justify-content: center;
+cursor: pointer;
+margin: 0;
+position: relative;
+}
+
+.number-input button:before,
+.number-input button:after {
+display: inline-block;
+position: absolute;
+content: '';
+height: 2px;
+transform: translate(-50%, -50%);
+}
+
+.number-input button.plus:after {
+transform: translate(-50%, -50%) rotate(90deg);
+}
+
+.number-input input[type=number] {
+text-align: center;
+}
+
+.number-input.number-input {
+border: 1px solid #ced4da;
+width: 10rem;
+border-radius: .25rem;
+}
+
+.number-input.number-input button {
+width: 2.6rem;
+height: .7rem;
+}
+
+.number-input.number-input button.minus {
+padding-left: 10px;
+}
+
+.number-input.number-input button:before,
+.number-input.number-input button:after {
+width: .7rem;
+background-color: #495057;
+}
+
+.number-input.number-input input[type=number] {
+max-width: 4rem;
+padding: .5rem;
+border: 1px solid #ced4da;
+border-width: 0 1px;
+font-size: 1rem;
+height: 2rem;
+color: #495057;
+}
+
+@media not all and (min-resolution:.001dpcm) {
+@supports (-webkit-appearance: none) and (stroke-color:transparent) {
+
+.number-input.def-number-input.safari_only button:before,
+.number-input.def-number-input.safari_only button:after {
+margin-top: -.3rem;
+}
+}
+}
+
+
+/*
+----------------------------
+	roduct description style end
+----------------------------
+*/

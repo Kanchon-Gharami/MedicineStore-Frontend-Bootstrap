@@ -1,0 +1,170 @@
+body{
+	font-family: 'Hind Siliguri';
+}
+
+
+/*
+----------------------
+	header style start
+----------------------
+*/
+
+.shadow1{
+	box-shadow: 0px 3px 12px #B5B2B2;
+}
+
+.header_top{
+	height: 40px;
+	background-image: linear-gradient(to right, #0C5023, #0C5023, #126D30, #18803B, #26B556, #26B556);
+}
+
+.header_down{
+	height: 81px;
+}
+
+.logo{
+	max-height: 121px;
+	width: auto;
+}
+
+.nav-link{
+	color: #222222 !important;
+}
+
+.active{
+	background-color: #2AB157;
+	color: white !important;
+}
+.hsp_gap{
+	width: 250px;
+}
+
+#navbarSupportedContent{
+  background-color:white !important;
+  padding-left: 40px;
+}
+
+#navbarSupportedContent .nav-item :hover {
+  background-color:#2AB157 !important;
+}
+
+
+@media only screen and (max-width: 1530px) {
+	.logo{
+		max-height: 40px;
+		width: auto;
+	}
+	.header_down{
+		width: 100%;
+		margin-left: 0px !important;
+	}
+	
+	.hsp_gap{
+		width: 40px;
+	}
+	.itm_will_null_tabxxx{
+		width: 1px;
+  		height: 1px;
+    	display: none;
+	}
+}
+@media only screen and (max-width: 1060px) {
+	.itm_will_null_tab{
+		width: 1px;
+  		height: 1px;
+    	display: none;
+	}
+	.medi_tetho{
+		margin: auto !important;
+		margin-top: 50px !important;
+		display: flex !important;
+	}
+	.nav-item{
+		margin-left: 0px !important;
+		margin-right: 0px !important;
+
+	}
+}
+
+/*
+----------------------
+	header style end
+----------------------
+*/
+
+
+
+
+
+/*
+----------------------------
+	footer style start
+----------------------------
+*/
+
+.footer{
+  background-color: #282828;
+  padding: 20px;
+  padding-bottom: 70px;
+}
+
+.footer .ficon{
+  padding: 40px 60px;
+}
+
+.footer .ficon img{
+  width: 23.625px;
+  height: 23.625px;
+  margin: 10px;
+}
+
+.footer .column-1{
+  color: #AAAA9D;
+  padding: 20px 60px;
+  font-size: 14.25px;
+}
+
+.footer .column-1 img{
+  width: 174px;
+  height: 67.5px;
+}
+/*
+----------------------------
+	footer style end
+----------------------------
+*/
+
+
+
+
+
+/*
+----------------------------
+	presciption upload style start
+----------------------------
+*/
+
+.upload_container{
+	width: 500px;
+	height: 500px;
+	border: 4px dashed #137333;
+}
+
+
+
+
+.file-field.medium .file-path-wrapper {
+height: 3rem; }
+.file-field.medium .file-path-wrapper .file-path {
+height: 2.8rem; }
+
+.file-field.big-2 .file-path-wrapper {
+height: 3.7rem; }
+.file-field.big-2 .file-path-wrapper .file-path {
+height: 3.5rem; }
+
+/*
+----------------------------
+	presciption upload style end
+----------------------------
+*/

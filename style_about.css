@@ -1,0 +1,247 @@
+body{
+	font-family: 'Hind Siliguri';
+}
+
+
+/*
+----------------------
+	header style start
+----------------------
+*/
+
+.shadow1{
+	box-shadow: 0px 3px 12px #B5B2B2;
+}
+
+.header_top{
+	height: 40px;
+	background-image: linear-gradient(to right, #0C5023, #0C5023, #126D30, #18803B, #26B556, #26B556);
+}
+
+.header_down{
+	height: 81px;
+}
+
+.logo{
+	max-height: 121px;
+	width: auto;
+}
+
+.nav-link{
+	color: #222222 !important;
+}
+
+.active{
+	background-color: #2AB157;
+	color: white !important;
+}
+.hsp_gap{
+	width: 250px;
+}
+
+#navbarSupportedContent{
+  background-color:white !important;
+  padding-left: 40px;
+}
+
+#navbarSupportedContent .nav-item :hover {
+  background-color:#2AB157 !important;
+}
+
+
+@media only screen and (max-width: 1530px) {
+	.logo{
+		max-height: 40px;
+		width: auto;
+	}
+	.header_down{
+		width: 100%;
+		margin-left: 0px !important;
+	}
+	
+	.hsp_gap{
+		width: 40px;
+	}
+	.itm_will_null_tabxxx{
+		width: 1px;
+  		height: 1px;
+    	display: none;
+	}
+}
+@media only screen and (max-width: 1060px) {
+	.itm_will_null_tab{
+		width: 1px;
+  		height: 1px;
+    	display: none;
+	}
+	.medi_tetho{
+		margin: auto !important;
+		margin-top: 50px !important;
+		display: flex !important;
+	}
+	.nav-item{
+		margin-left: 0px !important;
+		margin-right: 0px !important;
+
+	}
+}
+
+/*
+----------------------
+	header style end
+----------------------
+*/
+
+
+
+
+
+/*
+----------------------------
+	footer style start
+----------------------------
+*/
+
+.footer{
+  background-color: #282828;
+  padding: 20px;
+  padding-bottom: 70px;
+}
+
+.footer .ficon{
+  padding: 40px 60px;
+}
+
+.footer .ficon img{
+  width: 23.625px;
+  height: 23.625px;
+  margin: 10px;
+}
+
+.footer .column-1{
+  color: #AAAA9D;
+  padding: 20px 60px;
+  font-size: 14.25px;
+}
+
+.footer .column-1 img{
+  width: 174px;
+  height: 67.5px;
+}
+/*
+----------------------------
+	footer style end
+----------------------------
+*/
+
+
+/* About Us Section
+--------------------------------*/
+
+#about {
+  background: #fff;
+  padding: 60px 0;
+}
+
+#about .about-container .background {
+  margin: 20px 0;
+}
+
+#about .about-container .content {
+  background: #fff;
+}
+
+#about .about-container .title {
+  color: #333;
+  font-weight: 700;
+  font-size: 32px;
+}
+
+#about .about-container p {
+  line-height: 26px;
+}
+
+#about .about-container p:last-child {
+  margin-bottom: 0;
+}
+
+#about .about-container .icon-box {
+  background: #fff;
+  background-size: cover;
+  padding: 0 0 30px 0;
+}
+
+#about .about-container .icon-box .icon {
+  float: left;
+  background: #fff;
+  width: 64px;
+  height: 64px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  text-align: center;
+  border-radius: 50%;
+  border: 2px solid #007bff;
+  transition: all 0.3s ease-in-out;
+}
+
+#about .about-container .icon-box .icon i {
+  color: #007bff;
+  font-size: 24px;
+}
+
+#about .about-container .icon-box:hover .icon {
+  background: #007bff;
+}
+
+#about .about-container .icon-box:hover .icon i {
+  color: #fff;
+}
+
+#about .about-container .icon-box .title {
+  margin-left: 80px;
+  font-weight: 600;
+  margin-bottom: 5px;
+  font-size: 18px;
+}
+
+#about .about-container .icon-box .title a {
+  color: #283d50;
+}
+
+#about .about-container .icon-box .description {
+  margin-left: 80px;
+  line-height: 24px;
+  font-size: 14px;
+}
+
+#about .about-extra {
+  padding-top: 60px;
+}
+
+#about .about-extra h4 {
+  font-weight: 600;
+  font-size: 24px;
+}
+.section-header p {
+    text-align: center;
+    margin: auto;
+    font-size: 15px;
+    padding-bottom: 60px;
+    color: #556877;
+    width: 50%;
+}

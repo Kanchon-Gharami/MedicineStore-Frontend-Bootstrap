@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Medicare</title>
+
+	<!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+
+	<!-- jQuery library -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+	<!-- Popper JS -->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+
+	<!-- Latest compiled JavaScript -->
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+
+	<!-- animated css link -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css"/>
+
+	<!-- custom css link -->
+	<link rel="stylesheet" type="text/css" href="style_itemcart.css">
+
+	<!-- hind siliguri font link -->
+	<link href='https://fonts.googleapis.com/css?family=Hind Siliguri' rel='stylesheet'>
+
+
+</head>
+<body>
+
+	<!-- header start -->
+	<div class="container-fluid fixed-top bg-white shadow1">
+		
+		<div class="row header_top">
+			<img src="imgs/logo.png" class="logo">
+
+			<div class="ml-auto" style="margin-top: 9px; height: 24px;">
+
+				<div class="row mx-3 itm_will_null_tab" style="height: 24px; float: left;">
+					<img src="icons/phone.png" class="mr-2" style="width: 18px; height: 18px;">
+					<p style="color: white; font-size: 14px;">Phone: +88 018 18068758</p>
+				</div>
+
+				<div class="row mx-3 itm_will_null_tab" style="height: 24px; float: left;">
+					<img src="icons/alarm.png" class="mr-2" style="width: 20px; height: 20px;">
+					<p style="color: white; font-size: 14px;">Sat-Thu (8am-10pm)</p>
+				</div>
+
+				<div class="row mx-3 itm_will_null_tab" style="height: 24px; float: left;">
+					<img src="icons/mail.png" class="mr-2" style="height: 20px;">
+					<p style="color: white; font-size: 14px;">info.medicare@gmail.com</p>
+				</div>
+
+				<div class="hsp_gap" style="float: left;"></div>
+				
+
+
+				<a href="singin.html">
+					<div class="row ml-3 mr-5" style="height: 24px; float: right;">
+						<img src="icons/user.png" class="mr-2 itm_will_phn" style="height: 20px;">
+						<p class="itm_will_null_phn" style="color: white; font-size: 14px;">Sign In / Register</p>
+					</div>
+				</a>
+
+				<a href="itemcart.html">
+					<div class="row ml-auto mr-0" style="height: 24px; float: right;">
+						<img src="icons/cart.png" class="mr-2" style="height: 24px; margin-top: -4px;">
+					</div>
+				</a>
+
+			</div>
+
+		</div>
+
+		<div class="row header_down" style="margin-left: 380px;">
+
+				<nav class="navbar navbar-expand-lg navbar-light" style="width: 100%; height: 80px;">
+				  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+				    <span class="navbar-toggler-icon"></span>
+				  </button>
+
+				  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+				    <ul class="navbar-nav mr-auto">
+
+				      <li class="nav-item mx-4">
+				        <a class="nav-link" href="index.html">Home</a>
+				      </li>
+
+				      <li class="nav-item mx-4">
+				        <a class="nav-link" href="about.html">About</a>
+				      </li>
+
+				      <li class="nav-item mx-4">
+				        <a class="nav-link" href="#">Best Seller</a>
+				      </li>
+
+				      <li class="nav-item mx-4">
+				        <a class="nav-link" href="presciption_upload.html">Order by Prescription</a>
+				      </li>
+
+				      <li class="nav-item mx-4">
+				        <a class="nav-link" href="contact.html">Contact</a>
+				      </li>
+
+				    </ul>
+				  </div>
+				    <form class="form-inline my-2 my-lg-0">
+				      <input class="form-control " type="search" placeholder="Search" aria-label="Search" style="width: 250px; height: 42px;">
+				      <a href="#">
+				      	<img id="" src="icons/searchbar.png" style="height: 46px; width: auto; margin-left: -15px; cursor: pointer;">
+				      </a>
+				    </form>
+				</nav>
+			
+		</div>
+		
+	</div>
+
+	<!-- line gap for fixing top -->
+	<div style="height: 121px;"></div>
+
+	<!-- header end -->
+
+
+
+	<!-- cart start)-->	
+	<div class="container-fluid mt-5">
+
+		<div class="row px-lg-5">
+			<div class="col-lg-9">
+				<div class="items">
+						<div class="row row2 pad">
+							<input type="checkbox" id="Checkbox for following text input1" class="my-auto" >
+							<label for="Checkbox for following text input1"><img src="imgs/Group 38.png" class="my-auto ml-5" style="width: 180.75px;"></label>
+
+							<div class="my-auto mx-auto">
+								<p style="font-weight: 600; font-size: 21.75px; line-height: 1.5;">Medicine name</p>
+								<p style="font-size: 13.5px; color: #8894A3;line-height: 0.2">150mg</p>
+								<p style="font-size: 15px; color: black; font-weight: 600;line-height: 0.2">Per piece-8tk</p>
+							</div>
+
+							<p class="my-auto mx-auto" style="color: #137333; font-weight: 600;">BDT 100.00 tk</p>
+
+							<div class="def-number-input number-input safari_only">
+								<button onclick="this.parentNode.querySelector('input[type=number]').stepDown()" class="minus"></button>
+								<input class="quantity" min="0" name="quantity" value="1" type="number">
+							 	<button onclick="this.parentNode.querySelector('input[type=number]').stepUp()" class="plus"></button>
+							</div>
+
+							<img src="imgs/Header & Footer@2x.png" class="my-auto mx-auto" style="width: 36px; height: 36px;">
+							
+						</div>
+						<div class="row row2 pad">
+							<input type="checkbox" id="Checkbox for following text input2" class="my-auto" >
+							<label for="Checkbox for following text input2"><img src="imgs/Group 38.png" class="my-auto ml-5" style="width: 180.75px;"></label>
+
+							<div class="my-auto mx-auto">
+								<p style="font-weight: 600; font-size: 21.75px; line-height: 1.5;">Medicine name</p>
+								<p style="font-size: 13.5px; color: #8894A3;line-height: 0.2">150mg</p>
+								<p style="font-size: 15px; color: black; font-weight: 600;line-height: 0.2">Per piece-8tk</p>
+							</div>
+
+							<p class="my-auto mx-auto" style="color: #137333; font-weight: 600;">BDT 100.00 tk</p>
+							<div class="def-number-input number-input safari_only">
+								<button onclick="this.parentNode.querySelector('input[type=number]').stepDown()" class="minus"></button>
+								<input class="quantity" min="0" name="quantity" value="1" type="number">
+							 	<button onclick="this.parentNode.querySelector('input[type=number]').stepUp()" class="plus"></button>
+							</div>
+
+							<img src="imgs/Header & Footer@2x.png" class="my-auto mx-auto" style="width: 36px; height: 36px;">
+							
+						</div>
+						<div class="row row2 pad">
+							<input type="checkbox" id="Checkbox for following text input3" class="my-auto" >
+							<label for="Checkbox for following text input3"><img src="imgs/Group 38.png" class="my-auto ml-5" style="width: 180.75px;"></label>
+
+							<div class="my-auto mx-auto">
+								<p style="font-weight: 600; font-size: 21.75px; line-height: 1.5;">Medicine name</p>
+								<p style="font-size: 13.5px; color: #8894A3;line-height: 0.2">150mg</p>
+								<p style="font-size: 15px; color: black; font-weight: 600;line-height: 0.2">Per piece-8tk</p>
+							</div>
+
+							<p class="my-auto mx-auto" style="color: #137333; font-weight: 600;">BDT 100.00 tk</p>
+							<div class="def-number-input number-input safari_only">
+								<button onclick="this.parentNode.querySelector('input[type=number]').stepDown()" class="minus"></button>
+								<input class="quantity" min="0" name="quantity" value="1" type="number">
+							 	<button onclick="this.parentNode.querySelector('input[type=number]').stepUp()" class="plus"></button>
+							</div>
+
+							<img src="imgs/Header & Footer@2x.png" class="my-auto mx-auto" style="width: 36px; height: 36px;">
+							
+						</div>
+						
+				</div>
+			</div>
+			<div class="col-lg-3 order">
+					<p style="font-size: 22px; font-weight: bold; color: #1F9847; line-height: 2;">Order Summary:</p>
+					<div class="fp">
+						<p>Subtotal:</p>
+						<p style="padding-left: 176px;">100.00 tk</p>
+					</div>
+					<p style="font-size: 18px; line-height: .9; font-weight: 600; color: #969393">Shipping:</p>
+					<div class= "shipping">
+							<div class="radio-item">
+								<input type="radio" id="ritema" name="ritem" value="ropt1">
+								<label for="ritema">Regular delivery</label>
+								<span style="padding-left: 115px;">40.00 tk</span>
+							</div>
+						
+						<div class="radio-item">
+							<input type="radio" id="ritemb" name="ritem" value="ropt2">
+							<label for="ritemb">Urgent delivery</label>
+							<span style="padding-left: 120px;">50.00 tk</span>
+						</div>
+					</div>
+				  <div class="sp">
+					  <p>Total:</p>
+					  <p style="padding-left: 170px;">140.00 tk</p>
+				  </div>
+
+				  <button type="button" class="btn my-lg-5 mx-lg-5" id="grad">Checkout</button>
+				
+			</div>
+		</div>
+		
+
+	</div>
+	<!-- cart end -->
+
+
+
+	<!-- height gap -->
+	<div style="height: 80px;"></div>
+
+	<!-- footer start -->
+	<div class="footer">
+		<div class="row">
+			<div class="ficon">
+				<span style="color: #AAAA9D; font-size: 14.25px;">Follow us on</span>
+				<img src="icons/Icon awesome-facebook-square.png">
+				<img src="icons/Icon awesome-instagram.png">
+				<img src="icons/Icon ionic-logo-youtube.png">
+			</div>
+		</div>
+		<div class="row pt-4 mx-auto" style="border-top: 1px solid #AAAA9D; border-bottom: 1px solid #AAAA9D; width: 98%;">
+			<div class="col-xs-6 column-1">
+				<p style="color: white; font-weight: bold; font-size: 16.5px;">About Online Display CD</p>
+				<p>Phone no. +880 17xxxxxxxx</p>
+				<p>Email Address: emailaddress@gmail.com</p>
+				<p>Baliapukur, Kajla, Boaliya</p>
+				<p>Rajshahi, Bangladesh</p>
+			</div>
+			<div class="col-xs-6 column-1">
+				<p style="color: white; font-weight: bold; font-size: 16.5px;">Out Product Category</p>
+				<p>Service-1</p>
+				<p>Service-2</p>
+				<p>Service-3</p>
+				<p>Service-4</p>
+				<p>Service-5</p>
+				<p>Service-6</p>
+			</div>
+			<div class="col-xs-6 column-1">
+				<p style="color: white; font-weight: bold; font-size: 16.5px;">Sell Your Product via Us</p>
+				<p>Contact Us</p>
+			</div>
+			<div class="col-xs-6 column-1">
+				<p style="color: white; font-weight: bold; font-size: 16.5px;">Download Our Mobile App</p>
+				<img src="icons/google-play-badge.png">
+			</div>
+		</div>
+	</div>
+
+	<!-- footer end -->
+
+
+
+<!-- wow.js link & js code start-->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
+
+
+<script>
+	var wow = new WOW(
+	{
+		boxClass:     'wow',      // animated element css class (default is wow)
+	    animateClass: 'animate__animated', // animation css class (default is animated)
+	    offset:       0,          // distance to the element when triggering the animation (default is 0)
+	    mobile:       true,       // trigger animations on mobile devices (default is true)
+	    live:         true,       // act on asynchronously loaded content (default is true)
+	    callback:     function(box) {
+	      // the callback is fired every time an animation is started
+	      // the argument that is passed in is the DOM node being animated
+	    },
+	    scrollContainer: null,    // optional scroll container selector, otherwise use window,
+	    resetAnimation: true,     // reset animation on end (default is true)
+	  }
+	);
+	wow.init();
+</script>
+<!-- wow.js link & js code end-->
+
+
+
+
+
+
+</body>
+</html>
